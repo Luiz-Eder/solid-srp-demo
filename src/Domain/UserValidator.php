@@ -7,6 +7,10 @@ namespace App\Domain;
 final class UserValidator
     
 {
+        /**
+     * @param array{name:string, email:string, password:string} $user
+     * @return array<string> 
+     */
     public function validate(array $user): array
     {
         $errors = [];
