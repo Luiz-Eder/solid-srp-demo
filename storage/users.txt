@@ -1,0 +1,6 @@
+{"name":"eder","email":"eder@unimar.com","password":"$2y$10$eSz3jroXiRk4sa9eSEtq1uh2O6aFFwaxYPvnD2W8dOnqkgyY\/iBYa"}
+{"name":"Poliana","email":"Poliana@unimar.com","password":"$2y$10$gyQCiK3lhmhf4cDw0tyDierlHiTMRTExyRRcoxYWO\/klQKgxP.yly"}
+{"name":"Joao","email":"Joao@unimar.com","password":"$2y$10$YawxouHCLCQJgunmwQFO4uakbDATCQHNLWIg5IGyP5Wmjokjg3CXi"}
+{"name":"Maria","email":"maria@email.com","password":"$2y$10$dkr9Obvw6pnzH50nLvWJY.uWFK8UH3aJHvRxX4l\/BPCMXugzvK2D6"}
+{"name":"eder","email":"eder2@email.com","password":"Abcd*123"}
+{"name":"Valdir","email":"valdir@email.com","password":"Ad51654aff"}
