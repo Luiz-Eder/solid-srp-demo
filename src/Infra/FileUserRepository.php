@@ -21,9 +21,6 @@ final class FileUserRepository implements UserRepository
         }
     }
 
-    /**
-     * @param array{name:string,email:string,password:string} $user
-     */
     public function save(array $user): void
     {
         file_put_contents(
