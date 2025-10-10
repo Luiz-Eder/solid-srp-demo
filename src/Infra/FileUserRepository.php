@@ -33,9 +33,6 @@ final class FileUserRepository implements UserRepository
         );
     }
     
-    /**
-     * @return array<int, array{name:string, email:string, password:string}> 
-     */
     public function findAll(): array
     {
         if (!file_exists($this->filePath)) {
