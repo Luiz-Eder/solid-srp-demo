@@ -8,7 +8,7 @@ interface UserRepository
 {
     /**
      * @param array{name:string,email:string,password:string} $user
-     * @return bool Retorna TRUE se o salvamento for bem-sucedido, FALSE caso contrário.
+     * @return bool
      */
     public function save(array $user): bool; 
 
