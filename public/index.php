@@ -15,11 +15,17 @@ require __DIR__ . '/../vendor/autoload.php';
 </head>
 <body>
     <h1>Cadastro de usuários</h1>
+    
     <form action="register.php" method="POST">
         <label>Nome<input name="name" required></label>
         <label>E-mail<input name="email" type="email" required></label>
         <label>Senha<input name="password" type="password" required></label>
         <button type="submit">Cadastrar</button>
     </form>
+
+    <p>
+        <a href="users.php">Listagem de Usuários</a>
+    </p>
+    
 </body>
 </html>
