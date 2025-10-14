@@ -21,13 +21,18 @@ final class FileUserRepository implements UserRepository
         }
     }
 
-    public function save(array $user): void
+    // CORRIGIDO: Retorna bool para compatibilidade com a interface e para reportar falhas.
+    public function save(array $user): bool 
     {
-        file_put_contents(
+        // file_put_contents retorna o número de bytes escritos (sucesso) ou FALSE (falha)
+        $result = file_put_contents(
             $this->filePath, 
             json_encode($user, JSON_UNESCAPED_UNICODE) . PHP_EOL, 
             FILE_APPEND
         );
+        
+        // Retorna TRUE se a escrita foi bem-sucedida (não é FALSE)
+        return $result !== false; 
     }
     
     public function findAll(): array
